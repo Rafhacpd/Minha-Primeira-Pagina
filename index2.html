@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>CADASTRO CLIENTES</title>
+	<link rel="stylesheet" type="text/css" href="css/Style.css"/> 
+</head>
+ 
+<body>
+	
+	<p><h1>PAGINA DE CADASTRO</h1	></p>
+	<BR>
+	<form action="processa.php"method="post">
+
+
+		<label>Nome:</label>
+		<input type="text"name=texto1 placeholder="digite aqui">
+		<br>
+		<label>Telefone:</label>
+		<input type="text"name=texto1 placeholder="digite aqui">
+		<br>
+		<label>Endereço:</label>
+		<input type="text"name=texto1 placeholder="digite aqui">
+		<br>
+		<label>Email:</label>
+		<input type="text"name=texto1 placeholder="digite aqui">
+		<br>
+
+
+		<br>
+		<label>Digite sua senha:</label>
+		<input type="password" name="senha"placeholder="digite aqui">
+		<br>
+		<br>
+		<label>Digite novamente:</label>
+		<input type="password" name="senha"placeholder="digite aqui">
+		
+
+		<br>
+		<label></label>
+		<input type="hidden" name="informacao_oculta"value="mensagem oculta">
+		<br>
+		<br>
+		<label>Serviços </label>
+		<select name="selecao">
+			<option value="1">Instalação</option>
+			<option value="2">Manutenção</option>
+			
+		</select>
+		<br>
+		<br>
+		<label>Local</label><br>
+		<input type="radio"name="radio1"value="1">Casa <br>
+		<input type="radio"name="radio1"value="1">Apartamento
+		<br>
+
+		<br>
+		<label>Como nos conheceu?</label><br>
+		<input type="checkbox" name="ck1"value="1">Redes sociais <br>
+		<input type="checkbox" name="ck1"value="2">Internet<br>
+		<input type="checkbox" name="ck1"value="3">indicação<br>
+
+		<br>
+		<label>Apos preencher seus dados clique aqui:</label><br>
+		<input type="submit" value="enviar"name="submit">
+
+
+</body>
+ 
+</html>

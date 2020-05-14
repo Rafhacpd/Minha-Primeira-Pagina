@@ -1,0 +1,25 @@
+body{     
+    background: rgb(161, 159, 159);
+    margin-left: 30px;
+    margin-right: 500px;
+
+
+    }
+
+h1{
+    color: #black;
+    font-family: arial
+}
+
+h2{
+    color: #black;
+    font-family: fantasy
+}
+
+p{
+    font-size: 18px;
+}
+
+li{
+    font-size: 20px;
+}

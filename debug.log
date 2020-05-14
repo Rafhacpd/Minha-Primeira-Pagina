@@ -1,0 +1,4 @@
+[0512/010200.980:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0512/010200.992:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0512/010200.992:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0512/010201.008:ERROR:exception_snapshot_win.cc(98)] thread ID 3844 not found in process
